@@ -676,6 +676,7 @@ char* remove_mem(char* toFree) {
 	return ret_p;
 }
 
+/*
 int main(int argc, char const *argv[]) {
 	FILE* file = fopen( argv[1], "r" );
 	List_p list = createList("My List");
@@ -703,8 +704,9 @@ int main(int argc, char const *argv[]) {
         /*int x;
         while  ((x = fgetc(file) ) != EOF) {
             printf( "%c", x );
-        }*/
+        }
         fclose( file );
     }
 	return 0;
 }
+*/

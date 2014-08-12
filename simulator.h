@@ -32,3 +32,9 @@ typedef Process * Process_p;
 void start_loop();
 
 void scheduler();
+
+Process_p createProcess();
+
+double expon(double x);
+
+double rand_val();
